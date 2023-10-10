@@ -1,0 +1,189 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Daft Punk">
+<meta name="keywords" content="Daft Punk">
+<meta property="og:description" content="Daft Punk">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style3.css" type="text/css">
+<link rel="stylesheet" href="css/Chat_style.css">
+<!-- <link rel="stylesheet" href="css/style3.css?rnd=2" type="text/css"> -->
+<!-- <link rel="icon" href="favicon.svg"> -->
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="Chat_script.js" defer></script>
+
+<title>Daft Punk</title>
+</head>
+<body>
+<div id="top"></div>
+<div id="header" class="safari_only">
+<a href="#" id="logo"  onclick="toggleContent('main','main' ); return false;">&nbsp;</a>
+<div id="menu">
+<a href="#" onclick="toggleContent('shop','shop'); return false;">Магазин</a>
+    <a href="#" onclick="toggleContent('music','music'); return false;">Музыка</a>
+    <a href="#" onclick="toggleContent('subscribe','subscribe'); return false;">Подписаться</a>
+<!-- <a href="#shop">Магазин</a> -->
+<!-- <a href="#music">Музыка</a> -->
+<!-- <a href="#footer">Подписаться</a> -->
+<a href="login" >Войти в кабинет</a>
+<a href="index2" >Мой кабинет</a>
+</div>
+</div>
+
+<div id="mainContent" class="content">
+<div id="annonce">
+
+<div id="artwork">&nbsp;</div>
+<div id="wrapper">
+  <h1>Daft Punk — французский музыкальный электронный дуэт, образованный в 1993 году Томой Бангальтером и Ги-Манюэлем де Омем-Кристо. Достигли значительного успеха к концу девяностых на волне движения хаус-музыки во Франции, создав собственное звучание, смешав элементы электро, хауса, диско и синтипопа. Оказали значительное влияние на формирование собственно французского хауса. В период с 1996 по 2008 год их менеджером был Педро Винтер (Busy P), глава Ed Banger Records.</h1>
+</div>
+
+<!-- <h2>Includes 35 minutes<span class="deleteOnMobile"> </span><br class="showOnMobile">of unreleased music</h2>
+<h2>May 12th, 2023</h2> -->
+<!-- <a href="https://daftpunk.lnk.to/RAM10p" target="_blank" class="bouton">Vinyl & CD pre-order</a><a href="https://forms.sonymusicfans.com/campaign/daft-punk-ram-10th-anniversary-pre-save/" target="_blank" class="bouton">Streaming pre-save</a><a href="https://daftpunk.lnk.to/ram10d" target="_blank" class="bouton">Download pre-order</a> -->
+</div>
+<div class="iframe">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/BOUpNtk5Spk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+</div> 
+</div>
+
+
+<div id="shopContent" class="content" style="display: none;">
+  <div id="shop">
+        <h1>Товары</h1>
+        
+        <a href="vinils2" target="_blank" class="product" id="cd">
+        <div class="picture">&nbsp;</div>
+        <h2>Два диска</h2>
+        
+        </a>
+        <a href="lpvinil" target="_blank" class="product" id="vinyl">
+        <div class="picture">&nbsp;</div>
+        <h2>Тройной винил</h2>
+        
+        
+        </a>
+        </div>
+</div>
+<div id="musicContent" class="content" style="display: none;">
+<div id="music">
+<h1>Музыка</h1>
+<div class="wrapper">
+<a href="https://daftpunk.lnk.to/RAM_Originals" target="_blank" class="disc" id="randomaccessmemories"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/Alive2007" target="_blank" class="disc" id="alive2007"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/HumanAfterAll" target="_blank" class="disc" id="humanafterall"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/DaftClub" target="_blank" class="disc" id="daftclub"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/Discovery" target="_blank" class="disc" id="discovery"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/alive1997" target="_blank" class="disc" id="alive1997"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/Homework" target="_blank" class="disc" id="homework"><div class="play">&nbsp;</div>&nbsp;</a>
+</div>
+</div>
+</div>
+<div id="subscribeContent" class="content" style="display: none;">
+
+<div id="footer">
+<div id="logo">&nbsp;</div>
+<div id="social">
+<a target="_blank" href="https://daftpunk.lnk.to/subscribeonY" class="icon" id="youtube">&nbsp;</a>
+<a target="_blank" href="https://daftpunk.lnk.to/followS" class="icon" id="spotify">&nbsp;</a>
+
+</div>
+
+<div id="legals">
+© Az Daft punk
+</div>
+</div>
+</div>
+
+<button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+</button>
+    <div class="chatbot">
+      <header>
+        <h2>Чат с магазином</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Введите ваше сообщение</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Сообщение..." spellcheck="false" method="POST" action = "send_message.php" ></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+    </div>
+
+<!-- <div id="shop">
+<h1>Товары</h1>
+
+<a href="vinils2" target="_blank" class="product" id="cd">
+<div class="picture">&nbsp;</div>
+<h2>Два диска</h2>
+
+</a>
+<a href="lpvinil" target="_blank" class="product" id="vinyl">
+<div class="picture">&nbsp;</div>
+<h2>Тройной винил</h2>
+
+
+</a>
+</div> -->
+
+<!-- <div id="music">
+<h1>Музыка</h1>
+<div class="wrapper">
+<a href="https://daftpunk.lnk.to/RAM_Originals" target="_blank" class="disc" id="randomaccessmemories"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/Alive2007" target="_blank" class="disc" id="alive2007"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/HumanAfterAll" target="_blank" class="disc" id="humanafterall"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/DaftClub" target="_blank" class="disc" id="daftclub"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/Discovery" target="_blank" class="disc" id="discovery"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/alive1997" target="_blank" class="disc" id="alive1997"><div class="play">&nbsp;</div>&nbsp;</a>
+<a href="https://daftpunk.lnk.to/Homework" target="_blank" class="disc" id="homework"><div class="play">&nbsp;</div>&nbsp;</a>
+</div>
+</div> -->
+<!-- <div id="footer">
+<div id="logo">&nbsp;</div>
+<div id="social">
+<a target="_blank" href="https://daftpunk.lnk.to/subscribeonY" class="icon" id="youtube">&nbsp;</a>
+<a target="_blank" href="https://daftpunk.lnk.to/followS" class="icon" id="spotify">&nbsp;</a>
+
+</div>
+
+<div id="legals">
+© Az Daft punk
+</div>
+</div> -->
+<!-- <div id="popupNewsletter" class="overlay">
+<a class="close" href="#">&nbsp;</a>
+<a class="closeZone" href="#">&nbsp;</a>
+<div id="whiteZone"> -->
+
+<!-- <link href="embedcode/classic-071822.css" rel="stylesheet" type="text/css"> -->
+<!-- <style type="text/css">
+              #mc_embed_signup{background:#fff; clear:left; width:100%;}
+
+            </style> -->
+
+
+
+</div>
+</div>
+</form>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
